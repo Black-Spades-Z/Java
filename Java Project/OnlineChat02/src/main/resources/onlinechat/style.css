@@ -1,0 +1,8 @@
+#sendButton
+{
+    -fx-background-image: url("../icons/send.png");
+    -fx-background-size: 65 25 ;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+}

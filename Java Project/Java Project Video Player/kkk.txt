@@ -1,0 +1,32 @@
+
+    //play icon
+    Image playit = new Image("D:\\Programming\\Java\\Projects\\Java Project\\Java Project Video Player\\LastExperimentv2\\src\\main\\resources\\icons\\play.png");
+    ImageView playIt = new ImageView(playit);
+
+    //pause icon
+    Image pauseit = new Image("D:\\Programming\\Java\\Projects\\Java Project\\Java Project Video Player\\LastExperimentv2\\src\\main\\resources\\icons\\pause.png");
+    ImageView pauseIt = new ImageView(pauseit);
+
+    //mute icon
+    Image muteit = new Image("D:\\Programming\\Java\\Projects\\Java Project\\Java Project Video Player\\LastExperimentv2\\src\\main\\resources\\icons\\mute.png");
+    ImageView muteIt = new ImageView(muteit);
+
+    //unmute icon
+    Image unmuteit = new Image("D:\\Programming\\Java\\Projects\\Java Project\\Java Project Video Player\\LastExperimentv2\\src\\main\\resources\\icons\\unmute.png");
+    ImageView unmuteIt = new ImageView(unmuteit);
+
+    //stop icon
+    Image stopit = new Image("D:\\Programming\\Java\\Projects\\Java Project\\Java Project Video Player\\LastExperimentv2\\src\\main\\resources\\icons\\stop.png");
+    ImageView stopIt = new ImageView(stopit);
+
+    //Open File icon
+    Image openit = new Image("D:\\Programming\\Java\\Projects\\Java Project\\Java Project Video Player\\LastExperimentv2\\src\\main\\resources\\icons\\openfile.png");
+    ImageView openIt = new ImageView(openit);
+
+    //faster icon
+    Image fasterit = new Image("D:\\Programming\\Java\\Projects\\Java Project\\Java Project Video Player\\LastExperimentv2\\src\\main\\resources\\icons\\faster.png");
+    ImageView fasterIt = new ImageView(fasterit);
+
+    //slower icon
+    Image slowerit = new Image("D:\\Programming\\Java\\Projects\\Java Project\\Java Project Video Player\\LastExperimentv2\\src\\main\\resources\\icons\\slower.png");
+    ImageView slowerIt = new ImageView(slowerit);

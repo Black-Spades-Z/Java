@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+
+<BorderPane fx:id="mainBorderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="450.0" stylesheets="../style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.client.client.ClientWindow">
+   <center>
+      <ScrollPane prefHeight="608.0" prefWidth="450.0" BorderPane.alignment="CENTER">
+         <content>
+            <AnchorPane fx:id="mainPane" prefHeight="450.0" prefWidth="444.0">
+               <children>
+                  <TextArea fx:id="mainArea" prefHeight="200.0" prefWidth="200.0" />
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+   </center>
+   <bottom>
+      <HBox fx:id="mainHbox" prefHeight="30.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="nameField" prefWidth="60.0">
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin>
+            </TextField>
+            <TextField fx:id="textField" prefWidth="310.0" />
+            <Button fx:id="sendButton" mnemonicParsing="false" prefWidth="70.0" onAction="#setSendButton">
+               <HBox.margin>
+                  <Insets left="2.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </bottom>
+   <top>
+      <Label fx:id="mainInfo" prefWidth="450.0" text="Label" BorderPane.alignment="CENTER" />
+   </top>
+</BorderPane>
